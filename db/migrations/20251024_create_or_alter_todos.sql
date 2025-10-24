@@ -8,6 +8,7 @@ CREATE TABLE IF NOT EXISTS todos (
     updated_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT now(),
     pos INTEGER NOT NULL DEFAULT 0
 );
+
 -- unikkan judul (case-insensitive)
 DO $$
 BEGIN
